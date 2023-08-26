@@ -15,6 +15,7 @@ h1{
     font-size: 40px;
     background-color: black;
 }
+
 ul{
     list-style-type: none;
     display: flex;
@@ -40,8 +41,47 @@ li{
 }
 
 
-.search{}
+.search{
+    font-size: 20px;
+    background-color: rgb(27, 27, 27);
+    border:2px solid red;
+}
 
+h2{
+    background-color: white;
+    color: black;
+}
+.greeting{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 700px;
+    height: 60px;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+
+    
+}
+
+.welcometext{
+    color: black;
+    font-size: 22px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.welcomebox{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 0px;
+    border-bottom: 2px solid blue;
+
+}
 .header, 
 .footer{
     display: flex;
@@ -52,15 +92,16 @@ li{
 }
 
 .header{
-    border-bottom:1px solid #f9faf8;
     background-color: black;
 }
 
 .bodysection{
     display: flex;
+    flex-direction: column;
     width: auto;
-    height: 400px;
-    border: 1px solid #f9faf8;
+    height: 800px;
+    background-color: white;
+
 }
 
 
@@ -78,6 +119,66 @@ li{
     background-color: black;
 }
 .nintendoimage{
+    background-color: black;
+    width: 22px;
+    height: 20px;
+    display: flex;
+}
+
+.sega{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+}
+
+.segaimage{
+    background-color: black;
+    width: 22px;
+    height: 20px;
+    display: flex;
+}
+
+.dreamcast{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+}
+
+.dreamcastimage{
+    background-color: black;
+    width: 22px;
+    height: 20px;
+    display: flex;
+}
+
+.sony{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+}
+
+.sonyimage{
+    background-color: black;
+    width: 22px;
+    height: 20px;
+    display: flex;
+}
+
+.xbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+}
+
+.xboximage{
     background-color: black;
     width: 22px;
     height: 20px;
