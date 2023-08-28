@@ -82,6 +82,18 @@ h2{
     border-bottom: 2px solid blue;
 
 }
+
+.trending{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    font-size: 26px;
+    padding: 5px;
+
+}
+
+
 .header, 
 .footer{
     display: flex;
